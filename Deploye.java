@@ -8,6 +8,7 @@ public class deploye
 		System.out.println(" The No are " + a + " " + b);
 		add(a,b);
 		sub(a,b);
+		div(a,b);
 		
 		
        }
@@ -23,6 +24,12 @@ public class deploye
 			
 			System.out.println("SUB is  : " + (a-b));
 
+		}
+
+		public static void div(int a ,int b)
+		{
+			
+			System.out.println("Divivde Is : " + (a/b));		
 		}
 	
 }
