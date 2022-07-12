@@ -9,6 +9,7 @@ public class deploye
 		add(a,b);
 		sub(a,b);
 		div(a,b);
+		faltu();
 		
 		
        }
@@ -30,6 +31,11 @@ public class deploye
 		{
 			
 			System.out.println("Divivde Is : " + (a/b));		
+		}
+
+		public static void faltu()
+		{
+			System.out.println("faltu");
 		}
 	
 }
